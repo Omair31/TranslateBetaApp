@@ -1,5 +1,5 @@
 //
-//  TranslateBetaAppApp.swift
+//  TranslateBetaApp.swift
 //  TranslateBetaApp
 //
 //  Created by M on 14/06/2024.
@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct TranslateBetaAppApp: App {
+struct TranslateBetaApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(sourceText: "Hello my friends")
         }
     }
 }
